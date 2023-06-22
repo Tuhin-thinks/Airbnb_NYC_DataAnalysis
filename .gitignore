@@ -159,3 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 *.vscode/
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+# should be ignored by default (uncomment if necessary)
+.~*
+
+# folders to be ignored
+utils/tmp/*
